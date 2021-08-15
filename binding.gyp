@@ -9,7 +9,7 @@
         ],
         "include_dirs": [
             "includes",
-            "<!@(node -p \"require('node-addon-api').include\")"
+            "<!@(node -p \"require('node-addon-api1').include\")"
         ],
         "cflags!": ["-fno-exceptions"],
         "cflags_cc!": ["-fno-exceptions"],
